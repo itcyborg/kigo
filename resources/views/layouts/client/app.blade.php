@@ -15,7 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="{{asset('client/css/shop-homepage.css')}}" rel="stylesheet">
-
+    @yield('styles')
 </head>
 
 <body>
@@ -72,7 +72,7 @@
 <!-- Bootstrap core JavaScript -->
 <script src="{{asset('client/vendor/jquery/jquery.min.js')}}"></script>
 <script src="{{asset('client/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-
+@yield('scripts')
 </body>
 
 </html>
